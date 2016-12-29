@@ -1,0 +1,77 @@
+html, body {
+  margin:0;
+  padding:0;
+  font-family:roboto;
+}
+
+#topBackImage {
+  top:0;
+  left:0;
+  position: relative;
+  background-image:url("assets/img/background.png");
+  background-size:cover;
+  height:375px;
+  width:100%;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+
+#topbar {
+  background-color:rgba(0, 0, 0, 0.4);
+  position: fixed;
+  width:100%;
+  top:0;
+  background-size:cover;
+  height:60px;
+  z-index: 2;
+}
+
+.element {
+  display: inline-block;
+  cursor: pointer;
+
+  margin-left:15px;
+  width:100px;
+  height: 100%;
+  color:white;
+  text-align: center;
+  font-size:16px;
+  line-height: 60px;
+}
+
+.element:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#title {
+  
+  color:rgb(50, 50, 50);
+  font-size: 50px;
+  margin:auto;
+  text-align: center;
+  line-height: 375px;
+  height:100%;
+  
+}
+
+#main {
+
+  height: 100%;
+  text-align: center;
+  
+}
+
+.smallText {
+  
+  margin:15px;
+  font-size:20px
+  
+}
+
+.bigText {
+  
+  margin:15px;
+  font-size:30px
+  
+}
+
