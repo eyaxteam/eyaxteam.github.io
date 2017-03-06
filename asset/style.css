@@ -106,6 +106,9 @@ html {
   margin: 20px 0 0;
   top:42px;
   z-index:0;
+  
+  resize:both;
+    overflow: auto;
  
   
   
@@ -158,16 +161,19 @@ a {
     height: 28px;
     }
   
-  #mainBlock{
+  #mainBlock {
        
     left:0;
+    resize: none !important;
+    height: auto !important;
     position: inherit;
     min-width: 100%;
     margin-top:0px;
     margin-bottom:15px;
+    
        
     }
-  
+
   #Paragraph {
     
     font-size:0px:
