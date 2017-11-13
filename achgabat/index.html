@@ -1,0 +1,32 @@
+<html><head>
+		<title>Eyax - achgabat</title>
+		<meta charset="utf-8"> 
+		<link rel="stylesheet" type="text/css" href="css/font.css"><link rel="stylesheet" type="text/css" href="css/prism.css">
+		<link rel="stylesheet" type="text/css" href="css/basics.css">
+	 <script type="text/javascript" src="js/prism.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/local.css"></head>
+	<body>
+		<div id="topbar" style="">
+			<img id="topbar-image-container-left" style="height: 56px;" src="https://eyaxteam.github.io/asset/images/white.png">
+			<div style="font-size: 24px;font-family: &quot;whitney-light&quot;;">/p/achgabat</div>
+		<input style="display: inline-block;margin-right: 0;" type="text"><div style="background-image: url(&quot;img/search.png&quot;);width: 28px;height: 28px;background-size: 28px;display: inline-block;margin-left: 5px;"></div></div>
+		<div id="mainContainer" style="padding-left: 65px;padding-top: 45px;">
+			<div class="paragraph container">
+				<p class="paragraph-title">Achgabat development diary</p>
+				<p class="paragraph-content">Achgabat is a small 2D engine using SFML 2.4.2 and C++14, meant to be a base to 2D games and based of flexibility.</p>
+				<p class="paragraph-content">This page will act as a diary. Each major commit to the achgabat github will be followed by a post explaining the changes. You are welcome to provide commits and ideas!</p>
+			<p class="alert-box danger">The engine is experimental and require further SFML and C++ knowledge, there is no graphical interface or such. This isn't Unity or Cocos2D, if you don't know where to start, I suggest you take a look at <a href="https://www.sfml-dev.org/index.php">what is SFML.</a></p></div><div class="paragraph container">
+				<div class="paragraph-title">Next commit changes</div>
+				<div class="paragraph-content">- Added Managers <h class="text-red">(In progress)</h><br>- Added tickers <h class="text-green">(Done)</h></div>
+				
+			<div class="paragraph-title-medium">Tickers</div><p class="paragraph-content">Tickers are a simple way to make custom update cycles with custom tickrates in the main thread. The only parameter is the delta time. Their use is very simple :
+    <br>
+	</p><pre class="  language-cpp"><code class="  language-cpp">   
+		ag<span class="token operator">::</span>Ticker ticker<span class="token punctuation">;</span> <span class="token comment">//declaration</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>ticker<span class="token punctuation">.</span><span class="token function">check</span><span class="token punctuation">(</span>dt<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">//dt is delta time (sf::Time)</span>
+        <span class="token punctuation">{</span>
+			<span class="token comment">//do stuff</span>
+			<span class="token comment">//this code will be executed every 1/40 of a second</span>
+        <span class="token punctuation">}</span>
+	</code></pre>
+<style type="text/css"></style></div></div></body></html>

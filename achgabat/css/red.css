@@ -1,0 +1,24 @@
+.paragraph-title {color:white;}
+.paragraph-title-medium {color:white;}
+.paragraph-content {color:hsla(0,0%,100%,.5);}
+
+#topbar {
+  color:white;
+  background: #E65656;
+}
+
+#mainContainer {
+  background-color: #000;
+}
+
+.info {
+  color:white;
+  background: rgba(114, 137, 218, 0.42);
+  border: 2px solid rgba(6, 13, 36, 0.11);
+}
+
+.danger {
+  color:white;
+  background: rgba(209, 39, 39, .70);
+  border: 2px solid rgba(209, 39, 39, .95);
+}

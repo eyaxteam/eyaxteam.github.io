@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "whitney";
+  font-weight: 300;
+  src: url("https://discordapp.com/assets/d153359b5d87601d2b9c708b7ae2db02.woff") format("woff");
+}
+
+@font-face {
+  font-family: "whitney-light";
+  font-weight: 300;
+  src: url("https://discordapp.com/assets/16801bfdf51ed88e69bc90626a3ea436.woff") format("woff");
+}
+
+@font-face {
+  font-family: "whitney-semibold";
+  font-weight: 300;
+  src: url("https://discordapp.com/assets/877ef48bf9fcfee590f0ba64de101b59.woff") format("woff");
+}
